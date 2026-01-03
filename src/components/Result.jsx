@@ -55,9 +55,6 @@ const Result = ({ result, onRestart }) => {
 
   return (
     <div className="min-h-screen pt-2 sm:pt-4 pb-4 sm:pb-6 md:pb-8 px-3 sm:px-4">
-      {/* 隐藏的海报组件，用于生成图片 */}
-      <Poster result={result} ref={posterRef} />
-      
       <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
